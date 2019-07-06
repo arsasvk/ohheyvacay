@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flight Dataset Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><image src ='/static/logo.png' alt="Logo" width="120" height="70"> </image></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="visualize">VISUALIZE</a></li>
+        <li><a href="comparison">COMPARISON</a></li>
+        <li><a href="about">ABOUT US</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" >
+        <h1>Oh hey! Vacay!!</h1>
+        <p>We specialize in finding the ontime flights with the best fares!!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <!-- <div class="well">
+          <h5>Your Flight Preference:</h5>
+            
+          <select id="selDataset" onchange="optionChanged(this.value)" placeholder="Month"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div> -->
+        <!-- <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sample MetaData</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div> -->
+      </div>
+      <div class="col-md-5">
+       <div id="pie"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='static/style.css') }}"></script>
+  
+
+</body>
+
+</html>
