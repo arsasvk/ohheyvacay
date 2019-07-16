@@ -14,9 +14,9 @@ Furthermore, our website permits you to find the flight with the best fare. To d
 
 ## Visualize 
 
-<img src="https://github.com/arsasvk/project/blob/Sadhana/Images/arrival-delay-breakdown.png" alt="Arrival Delay" height="50%" width="50%">
+<img src="https://github.com/arsasvk/ohheyvacay/blob/master/Combined%20Project%202/Images/arrival-delay-breakdown.png" alt="Arrival Delay" height="50%" width="50%">
 
-<img src="https://github.com/arsasvk/project/blob/Sadhana/Images/best-flight-fare-compari.png" alt="Flight Map" height="50%" width="50%">
+<img src="https://github.com/arsasvk/ohheyvacay/blob/master/Combined%20Project%202/Images/best-flight-fare-compari.png" alt="Flight Map" height="50%" width="50%">
 
 
 ### Built With
